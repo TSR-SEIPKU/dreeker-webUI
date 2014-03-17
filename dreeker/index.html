@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" ng-app="dreeker">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>追客--Dreeker</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <script src="js/lib/jquery.min.js"></script>
+</head>
+<body ng-controller="LoginController">
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">追客 Dreeker</a>
+      </div>
+
+
+      <div class="navbar-collapse collapse">
+        <button ng-if="isLoggedin()" type="button" class="btn btn-primary navbar-btn">创建追踪</button>
+        <ul class="nav navbar-nav">
+          <li ng-if="isLoggedin()"><a href="#myTraceJob">我的追踪</a></li>
+          <li ng-if="isLoggedin()"><a href="#popularTraceJob">热门追踪</a></li>    
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <button ng-if="!isLoggedin()" ng-click="clearErroInfo()" type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#loginModal">登录</button>
+          <button ng-if="!isLoggedin()" type="button" class="btn btn-primary navbar-btn">注册</button>
+          <li ng-if="isLoggedin()" class="dropdown">
+            <a href='' class="dropdown-toggle" data-toggle="dropdown">{{currentUser().email}}<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">账户</a></li>
+              <li><a href="#">系统管理</a></li>
+              <li><a href="#" ng-click="logout()">退出</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <!--Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <form novalidate>
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">登录追客</h4>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <span class="input-group-addon">邮箱: </span>
+              <input name="email" class="form-control" type="email" ng-model="loginEmail" required />
+            </div>
+            <br />
+            <div class="input-group">
+              <span class="input-group-addon">密码: </span>
+              <input name="pw" class="form-control" type="password" ng-model="loginPw" required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <span class="label label-danger pull-left">{{errorInfo}}</span>
+            <button ng-click="login(loginEmail, loginPw)" type="button" class="btn btn-primary">登录</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Page container-->
+  <div class="container" ng-view>
+  </div>
+
+  <!--footer-->
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">关于我们&nbsp;&nbsp;|&nbsp;&nbsp;联系我们&nbsp;&nbsp;|&nbsp;&nbsp;意见反馈&nbsp;&nbsp;|&nbsp;&nbsp;加入我们&nbsp;&nbsp;|&nbsp;&nbsp;©2013</p>
+    </div>
+  </div>
+  <script src="js/lib/angular.min.js"></script>
+  <script src="js/lib/angular-route.js"></script>
+  <script src="js/lib/angular-resource.js"></script>
+  <script src="js/lib/angular-cookies.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/userModule.js"></script>
+  <script src="js/tracejob/controllers.js"></script>
+
+</body>
+</html>
