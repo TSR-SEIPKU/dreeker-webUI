@@ -42,9 +42,7 @@
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel">{{currentEntity.title}}</h4>
           </div>
-          <div class="modal-body">
-            {{currentEntity.content}}
-          </div>
+          <div class="modal-body" ng-bind-html="currentEntity.content"></div>
           <div class="modal-footer">
           </div>
       </div>

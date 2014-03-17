@@ -1,4 +1,9 @@
-var tracejobControl = angular.module('dreeker.traceJobController', ['dreeker.config', 'ngResource', 'ngCookies']);
+var tracejobControl = angular.module('dreeker.traceJobController', [
+		'dreeker.config', 
+		'ngResource', 
+		'ngCookies',
+		'ngSanitize'
+	]);
 
 tracejobControl.controller('MyTraceJobController', ['$scope', 'userService', '$location', '$resource', function($scope, user, $location, $resource){
 
