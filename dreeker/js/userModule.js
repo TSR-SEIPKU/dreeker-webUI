@@ -1,6 +1,6 @@
 var userModule = angular.module('dreeker.userModule', ['ngResource', 'ngCookies']);
 
-userModule.factory('userService', ['$cookieStore', '$http', '$resource', function($cookieStore, $http, $resource) {
+userModule.factory('userService', ['$cookieStore', '$resource', function($cookieStore, $resource) {
 	return {
 		isLoggedin: function(){
 			if ($cookieStore.get('currentUser')) {
