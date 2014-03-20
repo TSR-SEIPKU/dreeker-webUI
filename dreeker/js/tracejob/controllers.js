@@ -1,11 +1,10 @@
 var tracejobControl = angular.module('dreeker.traceJobController', [
-		'dreeker.restAPI',
-		'ngResource', 
+		'dreeker.restAPI', 
 		'ngCookies',
 		'ngSanitize',
 	]);
 
-tracejobControl.controller('MyTraceJobController', ['$scope', 'userService', '$location', '$resource', 'restService', function($scope, user, $location, $resource, restService){
+tracejobControl.controller('MyTraceJobController', ['$scope', 'userService', '$location', 'restService', function($scope, user, $location,  restService){
 
 	$scope.traceJobs = [];
 	$scope.matchedEntities = [];
