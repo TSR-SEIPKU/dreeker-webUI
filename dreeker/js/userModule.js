@@ -50,7 +50,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 	$scope.login = function(loginEmail, loginPw) {
 
 		// $location.path('/myTracejobdfsdfsdfsdfsdfs');
-		if ($scope.isInvalid(loginEmail, loginPw)) {
+		if (isInvalid(loginEmail, loginPw)) {
 			$scope.errorInfo = '输入信息有误';
 		} else {
 			$scope.errorInfo = "";
@@ -78,7 +78,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 		$scope.errorInfo = '邮箱或密码错误';
 	}
 
-	$scope.isInvalid = function(loginEmail, loginPw) {
+	function isInvalid(loginEmail, loginPw) {
 		if (loginPw == undefined || loginEmail == undefined) {
 			return true;
 		}
