@@ -1,0 +1,677 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"$resource	AngularJS"
+			],
+			[
+				"m",
+				"verbose_module	AngularJS"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"cr",
+				"currentUser"
+			],
+			[
+				"g",
+				"get	Get Elements"
+			],
+			[
+				"curr",
+				"currentUser"
+			],
+			[
+				"f",
+				"fail"
+			],
+			[
+				"suc",
+				"success"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"l",
+				"loginPassword"
+			],
+			[
+				"se",
+				"save"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"s",
+				"save"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"rer",
+				"return"
+			],
+			[
+				"loginp",
+				"loginPw"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cut",
+				"currentUser"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"is",
+				"isLoggedin"
+			],
+			[
+				"log",
+				"loginPw"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"us",
+				"userService"
+			],
+			[
+				"user",
+				"userModule"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"get",
+				"guest"
+			],
+			[
+				"ge",
+				"guest"
+			],
+			[
+				"serv",
+				"Services"
+			],
+			[
+				"da",
+				"Date"
+			],
+			[
+				"vis",
+				"visits"
+			],
+			[
+				"v",
+				"visits"
+			],
+			[
+				"super",
+				"superviser"
+			],
+			[
+				"h",
+				"helloworld"
+			],
+			[
+				"work",
+				"worker"
+			],
+			[
+				"p",
+				"pid"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"chat",
+				"chatServer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dreeker/js/tracejob/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1899,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/partials/myTraceJob.html",
+			"settings":
+			{
+				"buffer_size": 1638,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/js/userModule.js",
+			"settings":
+			{
+				"buffer_size": 2437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/index.html",
+			"settings":
+			{
+				"buffer_size": 4099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dreeker/js/app.js",
+			"settings":
+			{
+				"buffer_size": 1429,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/restService.js",
+		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
+		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/D/Documents/Github/dreeker-webUI/dreeker/css/layout.css",
+		"/D/Documents/Github/dreeker-webUI/README.md",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/config.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/tracejob/tracejobcontrollers.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/controllers.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/services.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/directives.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/tracejob/tracejobcontrollers",
+		"/D/Documents/Github/angular-phonecat/dreeker/index.html",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/userModule.js",
+		"/D/Documents/Github/supervisor/public/js/main.js",
+		"/D/Documents/Github/supervisor/public/js/phaser.min.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/lib/angular-resource.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/lib/angular.js",
+		"/D/编程工具包/angular-1.3.0-beta.1/angular.js",
+		"/D/Documents/Github/mean/public/js/services/articles.js",
+		"/D/Documents/Github/mean/public/js/controllers/articles.js",
+		"/D/Documents/Github/mean/app/controllers/index.js",
+		"/D/Documents/Github/mean/app/models/article.js",
+		"/D/Documents/Github/angular-phonecat/dreeker/partials/home.html",
+		"/D/Documents/Github/angular-phonecat/dreeker/partials/myTraceJob.html",
+		"/D/Documents/Github/angular-phonecat/dreeker/css/layout.css",
+		"/D/Documents/Github/angular-phonecat/dreeker/partials/popularTraceJob.html",
+		"/D/Documents/Github/angular-phonecat/dreeker/partials/pupolarTraceJob",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/lib/bootstrap.js",
+		"/D/Documents/Github/angular-phonecat/app/js/controllers.js",
+		"/C/Users/Lingxiao/Desktop/AngularJSDemos/DemoList.html",
+		"/C/Users/Lingxiao/Desktop/Readme.txt",
+		"/C/Users/Lingxiao/Desktop/angular-seed-master/angular-seed-master/app/js/filters.js",
+		"/C/Users/Lingxiao/Desktop/angular-seed-master/angular-seed-master/app/js/directives.js",
+		"/C/Users/Lingxiao/Desktop/angular-seed-master/angular-seed-master/app/js/controllers.js",
+		"/D/failedURLFile",
+		"/C/Users/Lingxiao/AppData/Local/Temp/Rar$DI59.9330/config.json",
+		"/D/Documents/Github/angular-phonecat/dreeker/js/lib/bootstrap.min.js",
+		"/D/编程工具包/bootstrap-3.1.1-dist/bootstrap-3.1.1-dist/css/bootstrap.css.map",
+		"/D/编程工具包/angular.min.js",
+		"/C/Users/Lingxiao/Desktop/basic_template/basic_template/index.html",
+		"/D/Programs/goagent-goagent-ab3a1f3/local/proxy.ini",
+		"/D/Documents/goagent3.1.5/local/proxy.ini",
+		"/D/Documents/goagent3.1.5/server/gae/app.yaml",
+		"/D/Documents/Github/angular-phonecat/app/index.html",
+		"/D/Documents/Github/supervisor/views/layout.jade",
+		"/D/Documents/Github/supervisor/views/index.jade",
+		"/D/Documents/Github/supervisor/package.json",
+		"/D/Documents/Github/supervisor/views/supervisor.jade",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Users/Lingxiao/Desktop/139943._______________Inglourious_Basterds_2009_BluRay/[无良杂军].Inglourious.Basterds.2009.BluRay.chs.ssa",
+		"/C/Users/Lingxiao/Desktop/139943._______________Inglourious_Basterds_2009_BluRay/[无耻混蛋].Inglourious.Basterds.2009.BluRay.eng.srt",
+		"/D/Documents/Github/supervisor/run.bat",
+		"/D/Documents/Github/nodetest1/package.json",
+		"/D/Documents/Github/nodetest1/views/userlist.jade",
+		"/D/Documents/Github/nodetest1/views/newuser.jade",
+		"/C/Users/Lingxiao/Desktop/新建文本文档.txt",
+		"/D/Documents/Github/nodetest1/routes/user.js",
+		"/D/Documents/Github/hello/package.json",
+		"/D/迅雷下载/mysql-2014-01-02.sql/mysql-2014-01-02.sql",
+		"/C/Users/灵箫/Desktop/新建文本文档.txt",
+		"/C/Serch.txt",
+		"//192.168.4.9/upload/EOS/test/Documentation/test-framework_b7ec5e07-f543-4064-ad6a-e7b9b7238925.html",
+		"//192.168.4.9/upload/EOS/test/Documentation/Migration Guide_b5c0744c-3dda-41ec-94be-fb76ca5f7528.html",
+		"//192.168.4.9/upload/EOS/test/Documentation/queryparser_c04235d2-942d-4169-bce8-47bc149e6a4c.html",
+		"/D/Documents/Github/hello/views/layout.jade",
+		"/D/Documents/Github/hello/app.js",
+		"/D/JavaWorkspace/EOS/WebContent/ProjectDetails.html",
+		"/D/Documents/Github/learning-node/README.md",
+		"/D/Documents/Github/learning-node/Passing_changes_between_functions.js",
+		"/D/Documents/Github/learning-node/hello-world-server.js",
+		"/D/Documents/Github/learning-node/Handling_error.js",
+		"/D/Documents/Github/learning-node/io_examples.js",
+		"/D/Documents/Github/learning-node/Using_cluster_to_distribute_work.js",
+		"/C/Windows/System32/Drivers/etc/protocol",
+		"/C/Windows/System32/Drivers/etc/services",
+		"/D/Documents/Github/learning-node/Handling_error",
+		"/D/Documents/Github/learning-node/bowughwa.itg.txt",
+		"/D/Documents/Github/learning-node/Express_twitter_sample.js",
+		"/D/NodejsWorkspace/Learnning-Nodejs/Passing_changes_between_functions.js",
+		"/D/NodejsWorkspace/Learnning-Nodejs/io_examples.js",
+		"/D/NodejsWorkspace/Learnning-Nodejs/event_loop_blocking.js",
+		"/D/Documents/Github/learning-node/tb2bjbqx.kxe.txt",
+		"/D/NodejsWorkspace/Learnning-Nodejs/foo.txt",
+		"/D/NodejsWorkspace/Learnning-Nodejs/bar.txt",
+		"/D/NodejsWorkspace/Learnning-Nodejs/_.sublime-project",
+		"/D/NodejsWorkspace/Learnning-Nodejs/_.sublime-workspace",
+		"/D/Programs/EnideStudio/Enide-Studio-05-kepler-win64/ws/learning-node/chat_server.js",
+		"/D/Programs/nodejs/node_modules/npm/lib/get.js",
+		"/D/Programs/nodejs/node_modules/npm/lib/xmas.js",
+		"/D/Programs/EnideStudio/Enide-Studio-05-kepler-win64/README.md",
+		"/D/Programs/Sublime Text 2/sublime_plugin.py",
+		"/D/Programs/nodejs/npm",
+		"/D/Programs/Sublime Text 2/PackageSetup.py",
+		"/D/Programs/Sublime Text 2/sublime_text back.exe",
+		"/D/cellPhoneList"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Documents\\Github\\angular-phonecat\\dreeker\\css",
+			"D:\\Documents\\Github\\supervisor\\public\\images"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"modal",
+			"o",
+			"user",
+			"User",
+			"user",
+			"User",
+			"user",
+			"createXhr",
+			"$httpBackend",
+			"done",
+			"resolvePromise",
+			"sendReq",
+			"$http",
+			"http",
+			"responseErrorInterceptor",
+			"url",
+			"action.url",
+			"setUrlParams",
+			"alert",
+			"arguments",
+			"actions",
+			"DEFAULT_ACTIONS",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"HTTP",
+			"http",
+			"f",
+			"order",
+			"require",
+			"fs",
+			"visits",
+			"{\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dreeker/js/tracejob/controllers.js",
+					"settings":
+					{
+						"buffer_size": 1899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dreeker/partials/myTraceJob.html",
+					"settings":
+					{
+						"buffer_size": 1638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								823,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dreeker/js/userModule.js",
+					"settings":
+					{
+						"buffer_size": 2437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dreeker/index.html",
+					"settings":
+					{
+						"buffer_size": 4099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								747,
+								747
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dreeker/js/app.js",
+					"settings":
+					{
+						"buffer_size": 1429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"routes/index.js"
+			],
+			[
+				"inde",
+				"routes/index.js"
+			],
+			[
+				"",
+				"/D/cellPhoneList"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true
+}

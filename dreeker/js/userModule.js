@@ -54,7 +54,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 			$scope.errorInfo = '输入信息有误';
 		} else {
 			$scope.errorInfo = "";
-			user.login(loginEmail, loginPw,$scope.loginSuc,$scope.loginFail);
+			user.login(loginEmail, loginPw, loginSuc, loginFail);
 		}
 	};
 
@@ -66,7 +66,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 		user.logout();
 	};
 
-	$scope.loginSuc = function() {
+	function loginSuc() {
 		$scope.errorInfo = '';
 		$('#loginModal').modal('hide');
 		$scope.loginEmail = '';
@@ -74,7 +74,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 		$location.path('/myTraceJob');
 	}
 
-	$scope.loginFail = function() {
+	function loginFail() {
 		$scope.errorInfo = '邮箱或密码错误';
 	}
 
