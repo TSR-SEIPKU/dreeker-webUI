@@ -1,5 +1,4 @@
 var tracejobControl = angular.module('dreeker.traceJobController', [
-		'dreeker.config', 
 		'dreeker.restAPI',
 		'ngResource', 
 		'ngCookies',
