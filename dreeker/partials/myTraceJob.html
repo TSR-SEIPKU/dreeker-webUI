@@ -8,7 +8,7 @@
   	  <div class="panel-body">
   	  	<ul class="nav nav-pills nav-stacked">
 	  	  <li  ng-repeat="item in traceJobs" ng-class="{active: item.active}">
-	  	  	<a href="" ng-click="loadWebentities($index)">
+	  	  	<a href="" ng-click="changeCurrentJob($index)">
 			  {{item.traceJob.jobName}}
 			  <span class="badge pull-right">{{item.traceJob.lastMatchedNum}}</span>
 	  	  	</a>
@@ -24,7 +24,7 @@
     	<h3 class="panel-title">信息列表</h3>
   	  </div>
   	  <div class="panel-body">
-  	  	<ul class="nav nav-pills nav-stacked">
+  	  	<ul class="nav nav-pills nav-stacked" infinite-scroll='loadMore()' infinite-scroll-distance='0' infinite-scroll-disabled='unloadable()'>
 	  	  <li ng-repeat="item in matchedEntities" data-toggle="modal" data-target="#detailModal">
 	  	  	<a ng-click="showEntity($index)" href="">
 			  {{item.webEntityTitle}}

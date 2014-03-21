@@ -1,4 +1,7 @@
-var userModule = angular.module('dreeker.userModule', ['ngResource', 'ngCookies']);
+var userModule = angular.module('dreeker.userModule', [
+	'ngResource', 
+	'ngCookies',
+]);
 
 userModule.factory('userService', ['$cookieStore', '$resource', function($cookieStore, $resource) {
 	return {
