@@ -2,7 +2,8 @@ var dreeker = angular.module('dreeker', [
 	'ngResource',
 	'ngRoute',
 	'dreeker.userModule',
-	'dreeker.traceJobController'
+	'dreeker.traceJobController',
+	'ui.utils'
 ]);
 
 /*

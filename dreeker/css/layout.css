@@ -26,9 +26,15 @@ body {
 /*@link-color: #444444;*/
 
 
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+.ui-scrollfix {
+  position: fixed;
+  top: 32px;
+  /*left: 62px;*/
+}
 
 body > .container {
   padding: 100px 15px 0;
