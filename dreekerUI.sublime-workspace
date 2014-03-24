@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"label"
+			],
+			[
+				"co",
+				"controller	AngularJS"
+			],
+			[
+				"inf",
+				"infinite-scroll"
+			],
+			[
+				"scop",
+				"$scope	AngularJS"
+			],
+			[
+				"sco",
+				"$scope	AngularJS"
+			],
+			[
+				"ht",
+				"$http	AngularJS"
+			],
+			[
+				"re",
+				"$resource	AngularJS"
+			],
+			[
 				"r",
 				"$resource	AngularJS"
 			],
@@ -44,16 +72,8 @@
 				"responseText"
 			],
 			[
-				"l",
-				"loginPassword"
-			],
-			[
 				"se",
 				"save"
-			],
-			[
-				"re",
-				"response"
 			],
 			[
 				"s",
@@ -168,26 +188,26 @@
 	"buffers":
 	[
 		{
-			"file": "dreeker/js/tracejob/controllers.js",
-			"settings":
-			{
-				"buffer_size": 1899,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "dreeker/partials/myTraceJob.html",
 			"settings":
 			{
-				"buffer_size": 1638,
+				"buffer_size": 1756,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dreeker/js/userModule.js",
+			"file": "dreeker/partials/newTraceJob.html",
 			"settings":
 			{
-				"buffer_size": 2437,
+				"buffer_size": 1507,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/js/tracejob/newTraceJob.js",
+			"settings":
+			{
+				"buffer_size": 176,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +215,7 @@
 			"file": "dreeker/index.html",
 			"settings":
 			{
-				"buffer_size": 4099,
+				"buffer_size": 4193,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,7 +223,7 @@
 			"file": "dreeker/js/app.js",
 			"settings":
 			{
-				"buffer_size": 1429,
+				"buffer_size": 1465,
 				"line_ending": "Windows"
 			}
 		},
@@ -213,6 +233,22 @@
 			{
 				"buffer_size": 214,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dreeker/js/restService.js",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/css/layout.css",
+			"settings":
+			{
+				"buffer_size": 959,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -240,6 +276,14 @@
 	},
 	"file_history":
 	[
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/tracejob/controllers.js",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/tracejob/newTraceJobController",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/lib/ui-utils.js",
+		"/D/WindowsTemp/Rar$DI00.952/ui-utils.js",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/userModule.js",
+		"/G/写在重装系统之前.txt",
+		"/D/Documents/Github/dreeker-webUI/dreeker/index.html",
+		"/D/Documents/Github/dreeker-webUI/dreekerUI.sublime-project",
 		"/D/Documents/Github/dreeker-webUI/dreeker/js/restService.js",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/AngularJS-sublime-package.sublime-settings",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
@@ -357,6 +401,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"form-group\">\n		    <div class=\"col-sm-offset-2 col-sm-5\">\n		        <label class=\"radio-inline\">\n					<input type=\"radio\" name=\"jobrule\" ng-model=\"job.rule\" value='1' checked>满足以下任意条件\n				</label>\n		        <label class=\"radio-inline\">\n					<input type=\"radio\" name=\"jobrule\" ng-model=\"job.rule\" value='0'>满足以下所有条件\n		        </label>\n		    </div>\n		</div>",
+			"hehe",
+			"isInvalid",
 			"header",
 			"modal",
 			"o",
@@ -434,51 +481,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dreeker/js/tracejob/controllers.js",
-					"settings":
-					{
-						"buffer_size": 1899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "dreeker/partials/myTraceJob.html",
 					"settings":
 					{
-						"buffer_size": 1638,
+						"buffer_size": 1756,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								823,
-								778
+								1185,
+								1185
 							]
 						],
 						"settings":
@@ -494,25 +513,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "dreeker/js/userModule.js",
+					"buffer": 1,
+					"file": "dreeker/partials/newTraceJob.html",
 					"settings":
 					{
-						"buffer_size": 2437,
+						"buffer_size": 1507,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								1045,
+								1045
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dreeker/js/tracejob/newTraceJob.js",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -525,20 +569,20 @@
 					"file": "dreeker/index.html",
 					"settings":
 					{
-						"buffer_size": 4099,
+						"buffer_size": 4193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								747,
-								747
+								967,
+								967
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -553,21 +597,22 @@
 					"file": "dreeker/js/app.js",
 					"settings":
 					{
-						"buffer_size": 1429,
+						"buffer_size": 1465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								899,
-								899
+								133,
+								144
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -594,6 +639,61 @@
 						"settings":
 						{
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dreeker/js/restService.js",
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dreeker/css/layout.css",
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

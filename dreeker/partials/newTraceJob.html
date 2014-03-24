@@ -1,1 +1,62 @@
-<p>创建追踪</p>
+
+<div ng-controller="NewTraceJobController">
+	<form class="form-horizontal" name="newJobForm" novalidate>
+		<div class="form-group">
+		    <label for="job_title" class="col-sm-2 control-label">任务标题</label>
+		    <div class="col-sm-7">
+		   	    <input ng-model="job.jobName" type="text" class="form-control" id="job_title" placeholder="任务标题" required>
+		    </div>
+		</div>
+		<div class="form-group">
+		    <label for="job_des" class="col-sm-2 control-label">任务简介</label>
+		    <div class="col-sm-7">
+		   	    <textarea class="form-control" rows="3" ng-model="job.description" id="job_des" placeholder="任务简介"></textarea>
+		    </div>
+		</div>
+		<div class="form-group">
+		    <label class="col-sm-2 control-label">追踪条件</label>
+		    <div class="col-sm-7">
+		        <label class="radio-inline">
+					<input type="radio" name="jobrule" ng-model="job.rule" value='1' checked>满足以下任意条件
+				</label>
+		        <label class="radio-inline">
+					<input type="radio" name="jobrule" ng-model="job.rule" value='0'>满足以下所有条件
+		        </label>
+		        <button type="button" class="btn btn-primary btn-sm pull-right" ng-click="addRule()">添加条件</button>
+		    </div>
+		</div>
+		<div class="form-group" ng-repeat="i in rules">
+			<div class="col-sm-2">
+				<button type="button" class="btn btn-danger btn-sm pull-right" ng-click="deleteRule($index)" ng-disabled="rules.length == 1">删除</button>
+			</div>
+		    <div class="col-sm-7">
+		    	<div class="form-group">
+		    		<div class="col-sm-3">
+				    	<select class="form-control">
+				    		<option>标题</option>
+				    		<option>正文</option>
+				    		<option selected>标题或正文</option>
+				    	</select>
+					</div>
+		    		<div class="col-sm-2">
+				    	<select class="form-control">
+				    		<option selected>包含</option>
+				    		<option>不包含</option>
+				    		<option>开始于</option>
+				    	</select>
+				    </div>
+				    <div class="col-sm-7">
+				    	<input ng-model="job.rule" type="text" class="form-control" placeholder="多个词语，用逗号隔开" required>
+				    </div>
+		   		</div>
+		    </div>
+		</div>
+		<div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-7">
+		    </div>
+		</div>		
+	</form>
+
+		{{job | json}}
+</div>
+

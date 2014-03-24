@@ -21,6 +21,7 @@
   <script src="js/restService.js"></script>
   <script src="js/userModule.js"></script>
   <script src="js/tracejob/controllers.js"></script>
+  <script src="js/tracejob/newTraceJob.js"></script>
 
 </head>
 <body ng-controller="LoginController">
@@ -40,10 +41,10 @@
 
 
       <div class="navbar-collapse collapse">
-        <button ng-if="isLoggedin()" type="button" class="btn btn-primary navbar-btn">创建追踪</button>
         <ul class="nav navbar-nav">
+          <li ng-if="isLoggedin()"><a href="#newTraceJob">创建追踪</a></li>
           <li ng-if="isLoggedin()"><a href="#myTraceJob">我的追踪</a></li>
-          <li ng-if="isLoggedin()"><a href="#popularTraceJob">热门追踪</a></li>    
+          <li ng-if="isLoggedin()"><a href="#popularTraceJob">热门追踪</a></li>  
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <button ng-if="!isLoggedin()" ng-click="clearErroInfo()" type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#loginModal">登录</button>
