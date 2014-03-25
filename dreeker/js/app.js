@@ -22,6 +22,13 @@ dreeker.factory('httpRequestInterceptor', ['$cookieStore', function($cookieStore
   };
 }]);
 
+dreeker.controller('AppController', ['$location', '$scope', function($location, $scope){
+	$scope.atPath = function (path) {
+		// alert($location.path() + " " + path);
+		return $location.path() == path;
+	}
+}])
+
 dreeker.config(function ($httpProvider) {
   $httpProvider.interceptors.push('httpRequestInterceptor');
 })

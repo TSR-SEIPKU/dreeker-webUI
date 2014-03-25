@@ -17,10 +17,12 @@
 		    <label class="col-sm-2 control-label">追踪条件</label>
 		    <div class="col-sm-7">
 		        <label class="radio-inline">
-					<input type="radio" name="jobrule" ng-model="job.rule" value='1' checked>满足以下任意条件
+					<input type="radio" name="iCheck" ng-model="job.rule" value='1' checked>
+					满足以下任意条件
 				</label>
 		        <label class="radio-inline">
-					<input type="radio" name="jobrule" ng-model="job.rule" value='0'>满足以下所有条件
+					<input type="radio" name="iCheck" ng-model="job.rule" value='0'>
+					满足以下所有条件
 		        </label>
 		        <button type="button" class="btn btn-primary btn-sm pull-right" ng-click="addRule()">添加条件</button>
 		    </div>
@@ -59,4 +61,13 @@
 
 		{{job | json}}
 </div>
+
+<script>
+	$(document).ready(function(){
+		$('input').iCheck({
+	  		checkboxClass: 'icheckbox_square-red',
+	  		radioClass: 'iradio_square-red',
+		});
+	});
+</script>
 
