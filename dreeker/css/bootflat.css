@@ -1037,7 +1037,10 @@ blockquote {
   background-color: #16647e;
   border-color: #16647e;
 }
-.navbar-default .navbar-brand, .navbar-default .navbar-link, .navbar-default .btn-link {
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-link, .navbar-default .btn-link {
   color: #76b3c7;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-link:hover, .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
