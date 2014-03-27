@@ -5,7 +5,7 @@ var tracejobControl = angular.module('dreeker.traceJobController', [
 		'infinite-scroll',
 	]);
 
-tracejobControl.controller('MyTraceJobController', ['$scope', 'userService', '$location', 'restService', function($scope, user, $location,  restService){
+tracejobControl.controller('MyTraceJobController', ['$scope', '$location', 'restService', function($scope, $location,  restService){
 
 	$scope.traceJobs = [];
 	$scope.matchedEntities = [];
@@ -24,8 +24,6 @@ tracejobControl.controller('MyTraceJobController', ['$scope', 'userService', '$l
 		$scope.changeCurrentJob(0);
 		pageReady = true;
 	});
-
-
 
 	function setActive(array, i){
 		array.forEach(function(entry) {
