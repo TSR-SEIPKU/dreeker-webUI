@@ -1,9 +1,4 @@
-var tracejobControl = angular.module('dreeker.traceJobController', [
-		'dreeker.restAPI', 
-		'ngCookies',
-		'ngSanitize',
-		'infinite-scroll',
-	]);
+var tracejobControl = angular.module('dreeker.traceJobController', []);
 
 tracejobControl.controller('MyTraceJobController', ['$scope', '$location', 'restService', function($scope, $location,  restService){
 

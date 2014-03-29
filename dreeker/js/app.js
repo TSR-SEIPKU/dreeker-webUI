@@ -1,10 +1,16 @@
 dreeker = angular.module('dreeker', [
+	'ngCookies',
 	'ngResource',
 	'ngRoute',
+	'ngSanitize',
+
+	'ui.utils',
+	'infinite-scroll',
+
+	'dreeker.restAPI',
 	'dreeker.userModule',
 	'dreeker.traceJobController',
 	'dreeker.newTraceJob',
-	'ui.utils'
 ]);
 
 dreeker.print = function(obj) {
