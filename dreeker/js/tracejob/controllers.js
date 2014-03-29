@@ -1,6 +1,6 @@
-var tracejobControl = angular.module('dreeker.traceJobController', []);
+dreeker.traceJobController = angular.module('dreeker.traceJobController', []);
 
-tracejobControl.controller('MyTraceJobController', ['$scope', '$location', 'restService', function($scope, $location,  restService){
+dreeker.traceJobController.controller('MyTraceJobController', ['$scope', '$location', 'restService', function($scope, $location,  restService){
 
 	$scope.traceJobs = [];
 	$scope.matchedEntities = [];

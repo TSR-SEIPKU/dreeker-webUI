@@ -1,4 +1,4 @@
-dreeker = angular.module('dreeker', [
+dreeker.app = angular.module('dreeker.app', [
 	'ngCookies',
 	'ngResource',
 	'ngRoute',
@@ -7,20 +7,17 @@ dreeker = angular.module('dreeker', [
 	'ui.utils',
 	'infinite-scroll',
 
-	'dreeker.restAPI',
-	'dreeker.userModule',
-	'dreeker.traceJobController',
-	'dreeker.newTraceJob',
+	dreeker.restAPI.name,
+	dreeker.userModule.name,
+	dreeker.traceJobController.name,
+	dreeker.newTraceJob.name,
 ]);
 
-dreeker.print = function(obj) {
-	alert(angular.toJson(obj));
-};
 
 /*
 添加login后验证用户的header以及为rest服务加上域名
 */
-dreeker.factory('httpRequestInterceptor', ['$cookieStore', function($cookieStore) {
+dreeker.app.factory('httpRequestInterceptor', ['$cookieStore', function($cookieStore) {
   return {
     request: function (config) {
       config.headers = {'dreekerauth': $cookieStore.get('currentUser')?$cookieStore.get('currentUser').uuid:"null"}
@@ -32,18 +29,18 @@ dreeker.factory('httpRequestInterceptor', ['$cookieStore', function($cookieStore
   };
 }]);
 
-dreeker.controller('AppController', ['$location', '$scope', function($location, $scope){
+dreeker.app.controller('AppController', ['$location', '$scope', function($location, $scope){
 	$scope.atPath = function (path) {
 		// alert($location.path() + " " + path);
 		return $location.path() == path;
 	}
 }])
 
-dreeker.config(function ($httpProvider) {
+dreeker.app.config(function ($httpProvider) {
   $httpProvider.interceptors.push('httpRequestInterceptor');
 })
 
-dreeker.config(['$routeProvider', function($routeProvider) {
+dreeker.app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.when('/home', {
 		templateUrl: 'partials/home.html', 
 		access: {
@@ -83,7 +80,7 @@ dreeker.config(['$routeProvider', function($routeProvider) {
 }]);
 
 //icheck adaptive
-dreeker.directive('icheck', function($timeout, $parse) {
+dreeker.app.directive('icheck', function($timeout, $parse) {
     return {
         require: 'ngModel',
         link: function($scope, element, $attrs, ngModel) {

@@ -1,6 +1,6 @@
-var userModule = angular.module('dreeker.userModule', []);
+dreeker.userModule = angular.module('dreeker.userModule', []);
 
-userModule.factory('userService', ['$cookieStore', '$resource', function($cookieStore, $resource) {
+dreeker.userModule.factory('userService', ['$cookieStore', '$resource', function($cookieStore, $resource) {
 	return {
 		isLoggedin: function(){
 			if ($cookieStore.get('currentUser')) {
@@ -33,7 +33,7 @@ userModule.factory('userService', ['$cookieStore', '$resource', function($cookie
 	};
 }]);
 
-userModule.controller('LoginController', ['$scope', 'userService', '$location', function($scope, user, $location){
+dreeker.userModule.controller('LoginController', ['$scope', 'userService', '$location', function($scope, user, $location){
 	// alert(user.isLoggedin);
 	$scope.errorInfo = "";
 
@@ -86,7 +86,7 @@ userModule.controller('LoginController', ['$scope', 'userService', '$location', 
 	};
 }]);
 
-userModule.run(['$rootScope', '$location', 'userService', function($root, $location, user){
+dreeker.userModule.run(['$rootScope', '$location', 'userService', function($root, $location, user){
 	$root.$on("$routeChangeStart", function(event, next, current){
 		// if (current != undefined) {
 		// 	alert(current.templateUrl);

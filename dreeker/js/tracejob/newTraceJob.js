@@ -5,19 +5,19 @@
 */
 
 
+dreeker.newTraceJob = angular.module('dreeker.newTraceJob', []);
 
-dreeker.newTracejob = angular.module('dreeker.newTraceJob', []);
-
-dreeker.newTracejob.SeedCategoryService = function(restService) {
+dreeker.newTraceJob.SeedCategoryService = function(restService) {
 	//this.categories = [123,1,2,3];
 	this._restService = restService;
+	this.seeds = [];
 	//初始化时读取所有的category
 	restService('restLoadAllCategories',{}, function(obj){
 		this.categories = obj;
 	}, this);
 };
 
-dreeker.newTracejob.controller('NewTraceJobController', ['$scope', 'restService', 'SeedCategoryService', function($scope, restService, SeedCategoryService){
+dreeker.newTraceJob.controller('NewTraceJobController', ['$scope', 'restService', 'SeedCategoryService', function($scope, restService, SeedCategoryService){
 	$scope.rules = [{}];
 	$scope.job = {rule: 1};
 
@@ -46,5 +46,5 @@ dreeker.newTracejob.controller('NewTraceJobController', ['$scope', 'restService'
 		});
 	};
 
-}]).service('SeedCategoryService', ['restService', dreeker.newTracejob.SeedCategoryService]);
+}]).service('SeedCategoryService', ['restService', dreeker.newTraceJob.SeedCategoryService]);
 

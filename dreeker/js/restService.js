@@ -3,8 +3,9 @@
 *
 * Description
 */
-angular.module('dreeker.restAPI', []).
-factory('restService', ['$resource', function($resource){
+dreeker.restAPI = angular.module('dreeker.restAPI', []);
+
+dreeker.restAPI.factory('restService', ['$resource', function($resource){
 	return function(serviceName, params, back, callbackObj){
 		var data = $resource(serviceName, params).get(function(){
 			// alert(angular.toJson(data, true));
@@ -24,4 +25,4 @@ factory('restService', ['$resource', function($resource){
 			alert("网络错误，请稍后再试");
 		});
 	};
-}])
+}]);
