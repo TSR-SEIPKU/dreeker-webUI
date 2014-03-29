@@ -1,4 +1,4 @@
-var dreeker = angular.module('dreeker', [
+dreeker = angular.module('dreeker', [
 	'ngResource',
 	'ngRoute',
 	'dreeker.userModule',
@@ -6,6 +6,10 @@ var dreeker = angular.module('dreeker', [
 	'dreeker.newTraceJob',
 	'ui.utils'
 ]);
+
+dreeker.print = function(obj) {
+	alert(angular.toJson(obj));
+};
 
 /*
 添加login后验证用户的header以及为rest服务加上域名
@@ -88,7 +92,7 @@ dreeker.directive('icheck', function($timeout, $parse) {
                 return $(element).iCheck({
                     checkboxClass: 'icheckbox_square-red',
 	  				radioClass: 'iradio_square-red',
-	  				
+
                 }).on('ifChanged', function(event) {
                     if ($(element).attr('type') === 'checkbox' && $attrs['ngModel']) {
                         $scope.$apply(function() {

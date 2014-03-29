@@ -17,7 +17,7 @@
 		    <label class="col-sm-2 control-label">追踪条件</label>
 		    <div class="col-sm-7">
 		        <label class="radio-inline">
-					<input type="radio" name='rulePolicy' ng-model="job.rule" value='1' checked icheck>
+					<input type="radio" name='rulePolicy' ng-model="job.rule" value='1'icheck>
 					满足以下任意条件
 				</label>
 		        <label class="radio-inline">
@@ -64,9 +64,9 @@
 		<div class="form-group">
 			<label class="col-sm-2 control-label">追踪类别</label>
 		    <div class="col-sm-10">
-		    	<div class="col-sm-2" ng-repeat="i in job.cat track by $index">
+		    	<div class="col-sm-2" ng-repeat="item in SCService.categories">
 			    	<label class="checkbox-inline">
-	  					<input type="checkbox" value="option1" ng-model='job.cat[$index]' icheck> 种类{{$index}}
+	  					<input type="checkbox" ng-model='job.categories[item.uuid]' ng-change="loadCategory(item.uuid)" icheck> {{item.name}}
 					</label>
 				</div>
 		    </div>
