@@ -1,5 +1,8 @@
-dreeker = {};
+var dreeker = {
+	restServerHost: "http://localhost:8080/Dreeker/rest/",
 
-dreeker.print = function(obj) {
-	alert(angular.toJson(obj));
+	print: function(obj) {
+		console.log(angular.toJson(obj, true));
+	},
 };
+

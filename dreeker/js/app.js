@@ -22,7 +22,7 @@ dreeker.app.factory('httpRequestInterceptor', ['$cookieStore', function($cookieS
     request: function (config) {
       config.headers = {'dreekerauth': $cookieStore.get('currentUser')?$cookieStore.get('currentUser').uuid:"null"}
       if(config.url.indexOf('rest') >= 0) {
-      	config.url = "http://localhost:8080/Dreeker/rest/" + config.url;
+      	config.url = dreeker.restServerHost + config.url;
       }
       return config;
     }
@@ -31,7 +31,6 @@ dreeker.app.factory('httpRequestInterceptor', ['$cookieStore', function($cookieS
 
 dreeker.app.controller('AppController', ['$location', '$scope', function($location, $scope){
 	$scope.atPath = function (path) {
-		// alert($location.path() + " " + path);
 		return $location.path() == path;
 	}
 }])

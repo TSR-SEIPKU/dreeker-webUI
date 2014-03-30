@@ -8,7 +8,6 @@ dreeker.restAPI = angular.module('dreeker.restAPI', []);
 dreeker.restAPI.factory('restService', ['$resource', function($resource){
 	return function(serviceName, params, back, callbackObj){
 		var data = $resource(serviceName, params).get(function(){
-			// alert(angular.toJson(data, true));
 			if(data.result == 'suc') {
 				if (callbackObj == null) {
 					back(data.object);
