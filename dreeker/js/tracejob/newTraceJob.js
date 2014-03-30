@@ -8,13 +8,41 @@
 dreeker.newTraceJob = angular.module('dreeker.newTraceJob', []);
 
 dreeker.newTraceJob.SeedCategoryService = function(restService) {
-	//this.categories = [123,1,2,3];
 	this._restService = restService;
-	this.seeds = [];
+	this.seeds = {};
 	//初始化时读取所有的category
 	restService('restLoadAllCategories',{}, function(obj){
 		this.categories = obj;
 	}, this);
+};
+
+dreeker.newTraceJob.SeedCategoryService.prototype.addCat = function(catUuid) {
+	this._restService('restGetSeedsByCategory',{categoryUuid: catUuid}, function(obj){
+		for (var i = 0; i < obj.length; i++) {
+			var seedUuid = obj[i].uuid;
+			var seed = this.seeds[seedUuid]
+			if (!seed) {
+				obj[i].belongedCats = [catUuid];
+				this.seeds[seedUuid] = obj[i];
+			} else {
+				this.seeds[seedUuid].belongedCats.push(catUuid);
+			}
+		};
+	}, this);
+};
+
+dreeker.newTraceJob.SeedCategoryService.prototype.removeCat = function(catUuid) {
+	var seeds = this.seeds;
+	for (var seedUuid in seeds) {
+		var cats = seeds[seedUuid].belongedCats;
+		var i = cats.indexOf(catUuid);
+		if (i > -1) {
+			cats.splice(i,1);
+			if (cats.length == 0) {
+				delete seeds[seedUuid];
+			};
+		};
+	};
 };
 
 dreeker.newTraceJob.controller('NewTraceJobController', ['$scope', 'restService', 'SeedCategoryService', function($scope, restService, SeedCategoryService){
@@ -39,11 +67,19 @@ dreeker.newTraceJob.controller('NewTraceJobController', ['$scope', 'restService'
 	$scope.deleteRule = function(i){
 		$scope.rules.splice(i,1);
 	};
-	
+
+	$scope.addCategory = function(uuid) {
+		// alert("add " + uuid);
+		$scope.SCService.addCat(uuid);
+	}
+
+	$scope.removeCategory = function(uuid) {
+		// alert("remove " + uuid);
+		$scope.SCService.removeCat(uuid);
+	}
+
 	$scope.loadCategory = function(catUuid) {
-		restService('restGetSeedsByCategory',{categoryUuid: catUuid}, function(obj){
-			$scope.job.seeds = obj;
-		});
+		
 	};
 
 }]).service('SeedCategoryService', ['restService', dreeker.newTraceJob.SeedCategoryService]);

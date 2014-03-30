@@ -66,7 +66,17 @@
 		    <div class="col-sm-10">
 		    	<div class="col-sm-2" ng-repeat="item in SCService.categories">
 			    	<label class="checkbox-inline">
-	  					<input type="checkbox" ng-model='job.categories[item.uuid]' ng-change="loadCategory(item.uuid)" icheck> {{item.name}}
+	  					<input type="checkbox" ng-model='SCService.categories[$index].selected' ng-change="SCService.categories[$index].selected?addCategory(item.uuid):removeCategory(item.uuid)" icheck> {{item.name}}
+					</label>
+				</div>
+		    </div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">追踪网站</label>
+		    <div class="col-sm-10">
+		    	<div class="col-sm-2" ng-repeat="item in SCService.seeds">
+			    	<label class="checkbox-inline">
+	  					<input type="checkbox" ng-model='SCService.seeds[$index].selected'> {{item.name}}
 					</label>
 				</div>
 		    </div>
@@ -74,5 +84,6 @@
 	</form>
 
 		{{job | json}}
+		{{SCService | json}}
 </div>
 
