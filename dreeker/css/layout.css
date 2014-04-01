@@ -7,11 +7,23 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   background-color: #eee;
+  font-family: "Microsoft Yahei", "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;  
 }
+
+input,button,select,textarea {  
+    /* 追加中文和日文字体 */  
+  font-family: "Microsoft Yahei", "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+/*.form-group > div {
+   vertical-align:middle;
+} */
+
 #footer {
   position: absolute;
   bottom: 0;
