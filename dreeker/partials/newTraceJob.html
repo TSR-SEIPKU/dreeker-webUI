@@ -3,19 +3,19 @@
 	<form class="form-horizontal" name="newJobForm" novalidate>
 		<div class="form-group">
 		    <label for="job_title" class="col-sm-2 control-label">任务标题</label>
-		    <div class="col-sm-7">
+		    <div class="col-sm-10">
 		   	    <input ng-model="job.jobName" type="text" class="form-control" id="job_title" placeholder="任务标题" required>
 		    </div>
 		</div>
 		<div class="form-group">
 		    <label for="job_des" class="col-sm-2 control-label">任务简介</label>
-		    <div class="col-sm-7">
+		    <div class="col-sm-10">
 		   	    <textarea class="form-control" rows="3" ng-model="job.description" id="job_des" placeholder="任务简介"></textarea>
 		    </div>
 		</div>
 		<div class="form-group">
 		    <label class="col-sm-2 control-label">追踪条件</label>
-		    <div class="col-sm-7">
+		    <div class="col-sm-6">
 		        <label class="radio-inline">
 					<input type="radio" name='rulePolicy' ng-model="job.rule" value='1'icheck>
 					满足以下任意条件
@@ -24,12 +24,14 @@
 					<input type="radio" name='rulePolicy' ng-model="job.rule" value='0' icheck>
 					满足以下所有条件
 		        </label>
-		        <button type="button" class="btn btn-primary btn-sm pull-right" ng-click="addRule()">添加条件</button>
+		    </div>
+		    <div class="col-sm-4">
+		        <button type="button" class="btn btn-primary btn-sm" ng-click="addRule()">添加条件</button>
 		    </div>
 		</div>
 		<div class="form-group" ng-repeat="i in rules">
 			<div class="col-sm-2">
-				<button type="button" class="btn btn-danger btn-sm pull-right" ng-click="deleteRule($index)" ng-disabled="rules.length == 1">删除</button>
+				<button type="button" class="close" ng-click="deleteRule($index)" ng-disabled="rules.length == 1">&times;</button>
 			</div>
 		    <!-- <div class="col-sm-7"> -->
 		    		<div class="col-sm-2">
@@ -64,11 +66,18 @@
 		<div class="form-group">
 			<label class="col-sm-2 control-label">追踪类别</label>
 		    <div class="col-sm-10">
-		    	<div class="col-sm-2" ng-repeat="item in SCService.categories">
-			    	<label class="checkbox-inline">
-	  					<input type="checkbox" ng-model='SCService.categories[$index].selected' ng-change="SCService.categories[$index].selected?addCategory(item.uuid):removeCategory(item.uuid)" icheck> {{item.name}}
-					</label>
-				</div>
+			    	<div class="well" ng-mouseenter="mouseIn=true" ng-mouseleave="mouseIn=false">
+			    		<span ng-repeat="item in SCService.categories">
+			    			<button type="button" class="btn btn-danger btn-xs" ng-click="removeCategory(item.uuid)" ng-if="item.selected">{{item.name}}</button>
+			    		</span>
+			    		<span ng-hide="mouseIn" class="text-muted">
+			    			移入鼠标查看选项
+			    		</span>
+			    		<span ng-repeat="item in SCService.categories">
+			    			<button type="button" class="btn btn-default btn-xs" ng-click="addCategory(item.uuid)" ng-if="!item.selected" ng-hide="!mouseIn">{{item.name}}</button>
+			    		</span>
+			    	</div>
+			    	<span class="help-block">从白色种类中点击选择，或从红色种类中点击取消</span>
 		    </div>
 		</div>
 		<div class="form-group">

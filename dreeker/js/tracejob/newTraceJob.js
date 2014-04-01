@@ -17,6 +17,12 @@ dreeker.newTraceJob.SeedCategoryService = function(restService) {
 };
 
 dreeker.newTraceJob.SeedCategoryService.prototype.addCat = function(catUuid) {
+	for (var i = 0; i < this.categories.length; i++) {
+		var item = this.categories[i]
+		if (catUuid == item.uuid) {
+			item.selected = true;
+		};
+	};
 	this._restService('restGetSeedsByCategory',{categoryUuid: catUuid}, function(obj){
 		for (var i = 0; i < obj.length; i++) {
 			var seedUuid = obj[i].uuid;
@@ -32,6 +38,12 @@ dreeker.newTraceJob.SeedCategoryService.prototype.addCat = function(catUuid) {
 };
 
 dreeker.newTraceJob.SeedCategoryService.prototype.removeCat = function(catUuid) {
+	for (var i = 0; i < this.categories.length; i++) {
+		var item = this.categories[i]
+		if (catUuid == item.uuid) {
+			item.selected = false;
+		};
+	};
 	var seeds = this.seeds;
 	for (var seedUuid in seeds) {
 		var cats = seeds[seedUuid].belongedCats;
@@ -50,7 +62,6 @@ dreeker.newTraceJob.controller('NewTraceJobController', ['$scope', 'restService'
 	$scope.job = {rule: 1};
 
 	$scope.job.categories = [];
-	$scope.categories = [];
 	$scope.job.seeds = [];
 
 	$scope.SCService = SeedCategoryService;
@@ -69,12 +80,10 @@ dreeker.newTraceJob.controller('NewTraceJobController', ['$scope', 'restService'
 	};
 
 	$scope.addCategory = function(uuid) {
-		// alert("add " + uuid);
 		$scope.SCService.addCat(uuid);
 	}
 
 	$scope.removeCategory = function(uuid) {
-		// alert("remove " + uuid);
 		$scope.SCService.removeCat(uuid);
 	}
 
