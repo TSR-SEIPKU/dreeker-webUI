@@ -72,24 +72,27 @@
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
-        <form novalidate>
+        <form class="form-horizontal" novalidate>
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">登录追客</h4>
+            <h4 class="modal-title">登录</h4>
           </div>
           <div class="modal-body">
-            <div class="input-group">
-              <span class="input-group-addon">邮箱: </span>
-              <input name="email" class="form-control" type="email" ng-model="loginEmail" required />
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="inputSuccess3"><span class="glyphicon glyphicon-user"></span></label>
+              <div class="col-sm-10">
+                <input name="email" class="form-control" type="email" ng-model="loginEmail" placeholder="邮箱" required />
+              </div>
             </div>
-            <br />
-            <div class="input-group">
-              <span class="input-group-addon">密码: </span>
-              <input name="pw" class="form-control" type="password" ng-model="loginPw" required />
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="inputSuccess3"><span class="glyphicon glyphicon-lock"></span></label>
+              <div class="col-sm-10">
+                <input name="pw" class="form-control" type="password" ng-model="loginPw" placeholder="密码" required />
+              </div>
             </div>
           </div>
           <div class="modal-footer">
-            <span class="label label-danger pull-left">{{errorInfo}}</span>
-            <button ng-click="login(loginEmail, loginPw)" type="button" class="btn btn-primary">登录</button>
+                <button ng-click="login(loginEmail, loginPw)" type="button" class="btn btn-primary">登录</button>
+                <span class="label label-danger pull-left">{{errorInfo}}</span>
           </div>
         </form>
       </div>
