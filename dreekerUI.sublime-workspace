@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"div"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"ng-mo",
+				"ng-mouseleave	AngularJS"
+			],
+			[
+				"ng-mou",
+				"ng-mouseenter	AngularJS"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"c",
+				"catUuid"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"re",
+				"removeCat"
+			],
+			[
+				"seeds",
+				"SeedCategoryService"
+			],
+			[
+				"cat",
+				"catUuid"
+			],
+			[
+				"seed",
+				"seedUuid"
+			],
+			[
+				"s",
+				"SeedCategoryService"
+			],
+			[
+				"see",
+				"SeedCategoryService"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"$s",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"$lo",
+				"$location	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"ru",
+				"addRule"
+			],
+			[
+				"ng-c",
+				"ng-click	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"r",
+				"rules"
+			],
+			[
 				"l",
 				"label"
 			],
@@ -28,24 +128,12 @@
 				"$http	AngularJS"
 			],
 			[
-				"re",
-				"$resource	AngularJS"
-			],
-			[
-				"r",
-				"$resource	AngularJS"
-			],
-			[
 				"m",
 				"verbose_module	AngularJS"
 			],
 			[
 				"a",
 				"active"
-			],
-			[
-				"c",
-				"config"
 			],
 			[
 				"cr",
@@ -60,24 +148,12 @@
 				"currentUser"
 			],
 			[
-				"f",
-				"fail"
-			],
-			[
 				"suc",
 				"success"
 			],
 			[
 				"response",
 				"responseText"
-			],
-			[
-				"se",
-				"save"
-			],
-			[
-				"s",
-				"save"
 			],
 			[
 				"u",
@@ -106,10 +182,6 @@
 			[
 				"cut",
 				"currentUser"
-			],
-			[
-				"fa",
-				"false"
 			],
 			[
 				"is",
@@ -164,20 +236,8 @@
 				"superviser"
 			],
 			[
-				"h",
-				"helloworld"
-			],
-			[
 				"work",
 				"worker"
-			],
-			[
-				"p",
-				"pid"
-			],
-			[
-				"con",
-				"console"
 			],
 			[
 				"chat",
@@ -191,7 +251,7 @@
 			"file": "dreeker/partials/myTraceJob.html",
 			"settings":
 			{
-				"buffer_size": 1756,
+				"buffer_size": 1871,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +259,23 @@
 			"file": "dreeker/partials/newTraceJob.html",
 			"settings":
 			{
-				"buffer_size": 1507,
+				"buffer_size": 3724,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
+			"settings":
+			{
+				"buffer_size": 53277,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +283,15 @@
 			"file": "dreeker/js/tracejob/newTraceJob.js",
 			"settings":
 			{
-				"buffer_size": 176,
+				"buffer_size": 2276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dreeker/js/tracejob/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1600,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +299,7 @@
 			"file": "dreeker/index.html",
 			"settings":
 			{
-				"buffer_size": 4193,
+				"buffer_size": 5517,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,23 +307,7 @@
 			"file": "dreeker/js/app.js",
 			"settings":
 			{
-				"buffer_size": 1465,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 214,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dreeker/js/restService.js",
-			"settings":
-			{
-				"buffer_size": 469,
+				"buffer_size": 2928,
 				"line_ending": "Windows"
 			}
 		},
@@ -247,7 +315,7 @@
 			"file": "dreeker/css/layout.css",
 			"settings":
 			{
-				"buffer_size": 959,
+				"buffer_size": 1269,
 				"line_ending": "Windows"
 			}
 		}
@@ -276,22 +344,48 @@
 	},
 	"file_history":
 	[
+		"/D/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsManager.java",
+		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/common/AppConstants.java",
+		"/D/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsBndService.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/vo/ParkAndDynInfoVO.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/service/ParkService.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/dao/ParkDao.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/common/AppConstants.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsCommonFether.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsSave.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsService.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsBndService.java",
+		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsManager.java",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"//192.168.2.252/TSR_Share/Unsorted/英文版小说/黑客帝国/16.txt",
+		"/D/Git/ZlxGit/CacheCoherence/src/coherence/Processor.java",
+		"/D/Git/ZlxGit/CacheCoherence/src/coherence/MainMemory.java",
+		"/D/Git/ZlxGit/CacheCoherence/src/coherence/Main.java",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/restService.js",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/dreeker.js",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/userModule.js",
+		"/D/Documents/Github/dreeker-webUI/dreeker/js/tracejob/newTraceJob.js",
+		"/D/Documents/863项目交流资料/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/common/AppConstants.java",
+		"/D/Documents/863项目交流资料/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
+		"/D/Documents/863项目交流资料/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsCommonFether.java",
+		"/D/Documents/Github/dreeker-webUI/dreeker/css/bootflat.css",
+		"/D/Documents/Github/dreeker-webUI/README.md",
+		"/D/Documents/Github/dreeker-webUI/dreeker/css/layout.css",
+		"/D/编程工具包/bootflat.github.io-master/bootflat/css/bootflat.css",
 		"/D/Documents/Github/dreeker-webUI/dreeker/js/tracejob/controllers.js",
 		"/D/Documents/Github/dreeker-webUI/dreeker/js/tracejob/newTraceJobController",
 		"/D/Documents/Github/dreeker-webUI/dreeker/js/lib/ui-utils.js",
 		"/D/WindowsTemp/Rar$DI00.952/ui-utils.js",
-		"/D/Documents/Github/dreeker-webUI/dreeker/js/userModule.js",
 		"/G/写在重装系统之前.txt",
 		"/D/Documents/Github/dreeker-webUI/dreeker/index.html",
 		"/D/Documents/Github/dreeker-webUI/dreekerUI.sublime-project",
-		"/D/Documents/Github/dreeker-webUI/dreeker/js/restService.js",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/AngularJS-sublime-package.sublime-settings",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Lingxiao/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/D/Documents/Github/dreeker-webUI/dreeker/css/layout.css",
-		"/D/Documents/Github/dreeker-webUI/README.md",
 		"/D/Documents/Github/angular-phonecat/dreeker/js/config.js",
 		"/D/Documents/Github/angular-phonecat/dreeker/js/tracejob/tracejobcontrollers.js",
 		"/D/Documents/Github/angular-phonecat/dreeker/js/controllers.js",
@@ -335,7 +429,6 @@
 		"/D/Documents/Github/supervisor/views/index.jade",
 		"/D/Documents/Github/supervisor/package.json",
 		"/D/Documents/Github/supervisor/views/supervisor.jade",
-		"/C/Windows/System32/Drivers/etc/hosts",
 		"/C/Users/Lingxiao/Desktop/139943._______________Inglourious_Basterds_2009_BluRay/[无良杂军].Inglourious.Basterds.2009.BluRay.chs.ssa",
 		"/C/Users/Lingxiao/Desktop/139943._______________Inglourious_Basterds_2009_BluRay/[无耻混蛋].Inglourious.Basterds.2009.BluRay.eng.srt",
 		"/D/Documents/Github/supervisor/run.bat",
@@ -378,10 +471,7 @@
 		"/D/Programs/nodejs/node_modules/npm/lib/xmas.js",
 		"/D/Programs/EnideStudio/Enide-Studio-05-kepler-win64/README.md",
 		"/D/Programs/Sublime Text 2/sublime_plugin.py",
-		"/D/Programs/nodejs/npm",
-		"/D/Programs/Sublime Text 2/PackageSetup.py",
-		"/D/Programs/Sublime Text 2/sublime_text back.exe",
-		"/D/cellPhoneList"
+		"/D/Programs/nodejs/npm"
 	],
 	"find":
 	{
@@ -401,6 +491,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"function",
+			"rulePolicy",
+			"sm",
+			"form",
+			"\n		    ",
+			"sm",
+			"catUuid",
+			"dreeker.js",
+			"newTraceJob",
+			"user",
+			"input",
+			"navbar",
+			"761a07",
+			"e87256",
+			"#e87256",
+			"#56bccd",
+			"7683c7",
+			"#8ecadd",
+			"#0A7294",
+			"#ed5565",
+			"#7f1201",
+			"#ed2708",
+			"#da4453",
+			"#2b957a",
+			"#2463bc",
+			"#65c7e8",
+			"#5D9CEC",
+			"#4A89DC",
+			";\n",
+			"#4A89DC",
+			"nav-bar",
+			"#4fc1e9",
+			"#3bafda",
+			"#3776cc",
+			"#26816a",
+			"#48cfad",
+			"#37bc9b",
+			"37bc9b",
+			"#37bc9b",
+			"#37BC9B",
+			"#48CFAD",
+			"#37BC9B",
+			"#3BAFDA",
+			"#4A89DC",
+			"#37BC9B",
 			"<div class=\"form-group\">\n		    <div class=\"col-sm-offset-2 col-sm-5\">\n		        <label class=\"radio-inline\">\n					<input type=\"radio\" name=\"jobrule\" ng-model=\"job.rule\" value='1' checked>满足以下任意条件\n				</label>\n		        <label class=\"radio-inline\">\n					<input type=\"radio\" name=\"jobrule\" ng-model=\"job.rule\" value='0'>满足以下所有条件\n		        </label>\n		    </div>\n		</div>",
 			"hehe",
 			"isInvalid",
@@ -481,7 +616,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -489,15 +624,15 @@
 					"file": "dreeker/partials/myTraceJob.html",
 					"settings":
 					{
-						"buffer_size": 1756,
+						"buffer_size": 1871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1185,
-								1185
+								454,
+								454
 							]
 						],
 						"settings":
@@ -517,46 +652,48 @@
 					"file": "dreeker/partials/newTraceJob.html",
 					"settings":
 					{
-						"buffer_size": 1507,
+						"buffer_size": 3724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1045,
-								1045
+								1197,
+								1197
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "dreeker/js/tracejob/newTraceJob.js",
+					"file": "/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
 					"settings":
 					{
-						"buffer_size": 176,
+						"buffer_size": 1464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								705,
+								705
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -566,46 +703,46 @@
 				},
 				{
 					"buffer": 3,
-					"file": "dreeker/index.html",
+					"file": "/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
 					"settings":
 					{
-						"buffer_size": 4193,
+						"buffer_size": 53277,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								967,
-								967
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "dreeker/js/app.js",
+					"file": "dreeker/js/tracejob/newTraceJob.js",
 					"settings":
 					{
-						"buffer_size": 1465,
+						"buffer_size": 2276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								144
+								1173,
+								1173
 							]
 						],
 						"settings":
@@ -622,23 +759,25 @@
 				},
 				{
 					"buffer": 5,
-					"file": "README.md",
+					"file": "dreeker/js/tracejob/controllers.js",
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 1600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								1339,
+								1339
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -648,24 +787,53 @@
 				},
 				{
 					"buffer": 6,
-					"file": "dreeker/js/restService.js",
+					"file": "dreeker/index.html",
 					"settings":
 					{
-						"buffer_size": 469,
+						"buffer_size": 5517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								396
+								1858,
+								1858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dreeker/js/app.js",
+					"settings":
+					{
+						"buffer_size": 2928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -674,19 +842,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "dreeker/css/layout.css",
 					"settings":
 					{
-						"buffer_size": 959,
+						"buffer_size": 1269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								752,
-								752
+								0,
+								0
 							]
 						],
 						"settings":

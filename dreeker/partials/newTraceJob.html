@@ -31,7 +31,7 @@
 		</div>
 		<div class="form-group" ng-repeat="i in rules">
 			<div class="col-sm-2">
-				<button type="button" class="close" ng-click="deleteRule($index)" ng-disabled="rules.length == 1">&times;</button>
+				<button type="button" class="btn btn-danger btn-sm pull-right" ng-click="deleteRule($index)" ng-disabled="rules.length == 1"><i class="fa fa-trash-o fa-lg"></i></button>
 			</div>
 		    <!-- <div class="col-sm-7"> -->
 		    		<div class="col-sm-2">
