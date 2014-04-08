@@ -215,3 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 dreekerUI.sublime-workspace
 dreekerUI.sublime-workspace
+*.sublime-workspace
