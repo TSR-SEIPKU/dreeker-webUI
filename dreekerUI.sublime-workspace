@@ -264,22 +264,6 @@
 			}
 		},
 		{
-			"file": "/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
-			"settings":
-			{
-				"buffer_size": 1464,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
-			"settings":
-			{
-				"buffer_size": 53277,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "dreeker/js/tracejob/newTraceJob.js",
 			"settings":
 			{
@@ -323,11 +307,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 472.0
 	},
 	"console":
 	{
@@ -344,8 +332,42 @@
 	},
 	"file_history":
 	[
-		"/D/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsManager.java",
+		"/D/JavaWorkspace/GHRepoCluster/data/test.arff",
+		"/D/neo4j-2.1.0/doc/neo4j.txt",
+		"/D/neo4j-2.1.0/doc/README.txt",
+		"/D/neo4j-2.1.0/doc/neo4j-installer.txt",
+		"/D/neo4j-2.1.0/bin/Neo4j.bat",
+		"/D/neo4j-2.1.0/conf/neo4j-server.properties",
+		"/D/neo4j-2.1.0/bin/README.txt",
+		"/D/Documents/neo4j/GHdb/neostore.relationshiptypestore.db.names",
+		"/D/Documents/neo4j/GHdb/nioneo_logical.log.v12",
+		"/D/JavaWorkspace/GHRepoCluster/data/test1.arff",
+		"/D/JavaWorkspace/GHRepoCluster/data/test.csv",
+		"/D/Programs/Weka-3-6/data/cpu.arff",
+		"/C/Users/Lingxiao/Desktop/SpectralClusterer.java",
+		"/D/JavaWorkspace/GHRepoCluster/.project",
+		"/D/JavaWorkspace/GHRepoCluster/data/breast-cancer.arff",
+		"/D/Programs/Weka-3-6/data/contact-lenses.arff",
+		"/D/Programs/Weka-3-6/data/breast-cancer.arff",
+		"/D/WindowsTemp/Rar$DI01.390/SpectralClusterer.java",
+		"/D/portia-master/slyd/requirements.txt",
+		"/D/portia-master/slyd/src/pip-delete-this-directory.txt",
+		"/D/编程工具包/setup.py",
+		"/D/python.reg",
+		"/C/Users/Lingxiao/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/M44IOX8M/email.txt",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsCommonFether.java.dump",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsCommonFether.java",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsService.java.dump",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsService.java",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java.dump",
+		"/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
 		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/common/AppConstants.java",
+		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
+		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/dao/ParkDao.java",
+		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/vo/ParkAndDynInfoVO.java",
+		"/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/service/ParkService.java",
+		"/C/Users/Lingxiao/Desktop/1.bib",
+		"/D/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsManager.java",
 		"/D/SBZS/sbzs.source/sbzs.teller/src/ctais/business/sbzs/sb/ndsds/NdsdsBndService.java",
 		"//192.168.4.9/upload/KnowledgeBase/digitalchina/智慧城市-停车场查询/park/src/com/digitalchina/citizenwebgate/park/vo/ParkAndDynInfoVO.java",
 		"//192.168.4.9/upload/KnowledgeBase/digitalchina/税务/源代码/SBZS/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
@@ -437,41 +459,7 @@
 		"/D/Documents/Github/nodetest1/views/newuser.jade",
 		"/C/Users/Lingxiao/Desktop/新建文本文档.txt",
 		"/D/Documents/Github/nodetest1/routes/user.js",
-		"/D/Documents/Github/hello/package.json",
-		"/D/迅雷下载/mysql-2014-01-02.sql/mysql-2014-01-02.sql",
-		"/C/Users/灵箫/Desktop/新建文本文档.txt",
-		"/C/Serch.txt",
-		"//192.168.4.9/upload/EOS/test/Documentation/test-framework_b7ec5e07-f543-4064-ad6a-e7b9b7238925.html",
-		"//192.168.4.9/upload/EOS/test/Documentation/Migration Guide_b5c0744c-3dda-41ec-94be-fb76ca5f7528.html",
-		"//192.168.4.9/upload/EOS/test/Documentation/queryparser_c04235d2-942d-4169-bce8-47bc149e6a4c.html",
-		"/D/Documents/Github/hello/views/layout.jade",
-		"/D/Documents/Github/hello/app.js",
-		"/D/JavaWorkspace/EOS/WebContent/ProjectDetails.html",
-		"/D/Documents/Github/learning-node/README.md",
-		"/D/Documents/Github/learning-node/Passing_changes_between_functions.js",
-		"/D/Documents/Github/learning-node/hello-world-server.js",
-		"/D/Documents/Github/learning-node/Handling_error.js",
-		"/D/Documents/Github/learning-node/io_examples.js",
-		"/D/Documents/Github/learning-node/Using_cluster_to_distribute_work.js",
-		"/C/Windows/System32/Drivers/etc/protocol",
-		"/C/Windows/System32/Drivers/etc/services",
-		"/D/Documents/Github/learning-node/Handling_error",
-		"/D/Documents/Github/learning-node/bowughwa.itg.txt",
-		"/D/Documents/Github/learning-node/Express_twitter_sample.js",
-		"/D/NodejsWorkspace/Learnning-Nodejs/Passing_changes_between_functions.js",
-		"/D/NodejsWorkspace/Learnning-Nodejs/io_examples.js",
-		"/D/NodejsWorkspace/Learnning-Nodejs/event_loop_blocking.js",
-		"/D/Documents/Github/learning-node/tb2bjbqx.kxe.txt",
-		"/D/NodejsWorkspace/Learnning-Nodejs/foo.txt",
-		"/D/NodejsWorkspace/Learnning-Nodejs/bar.txt",
-		"/D/NodejsWorkspace/Learnning-Nodejs/_.sublime-project",
-		"/D/NodejsWorkspace/Learnning-Nodejs/_.sublime-workspace",
-		"/D/Programs/EnideStudio/Enide-Studio-05-kepler-win64/ws/learning-node/chat_server.js",
-		"/D/Programs/nodejs/node_modules/npm/lib/get.js",
-		"/D/Programs/nodejs/node_modules/npm/lib/xmas.js",
-		"/D/Programs/EnideStudio/Enide-Studio-05-kepler-win64/README.md",
-		"/D/Programs/Sublime Text 2/sublime_plugin.py",
-		"/D/Programs/nodejs/npm"
+		"/D/Documents/Github/hello/package.json"
 	],
 	"find":
 	{
@@ -491,6 +479,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"  <",
+			"round2",
 			"function",
 			"rulePolicy",
 			"sm",
@@ -616,7 +607,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -637,6 +628,8 @@
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -659,40 +652,15 @@
 						"selection":
 						[
 							[
-								1197,
-								1197
+								1689,
+								1689
 							]
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/szsm/zhcs/com/digitalchina/citizenwebgate/park/business/ParkManage.java",
-					"settings":
-					{
-						"buffer_size": 1464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								705,
-								705
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -702,35 +670,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/D/szsm/sw/sbzs.source/sbzs.srv/src/ctais/business/sbzs/sb/ndsds/NdsdsBu.java",
-					"settings":
-					{
-						"buffer_size": 53277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "dreeker/js/tracejob/newTraceJob.js",
 					"settings":
 					{
@@ -741,12 +681,14 @@
 						"selection":
 						[
 							[
-								1173,
-								1173
+								1229,
+								1229
 							]
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
@@ -758,7 +700,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "dreeker/js/tracejob/controllers.js",
 					"settings":
 					{
@@ -775,6 +717,8 @@
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
@@ -786,7 +730,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "dreeker/index.html",
 					"settings":
 					{
@@ -797,24 +741,26 @@
 						"selection":
 						[
 							[
-								1858,
-								1858
+								287,
+								287
 							]
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "dreeker/js/app.js",
 					"settings":
 					{
@@ -831,6 +777,7 @@
 						],
 						"settings":
 						{
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
@@ -842,7 +789,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "dreeker/css/layout.css",
 					"settings":
 					{
@@ -859,6 +806,8 @@
 						],
 						"settings":
 						{
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
